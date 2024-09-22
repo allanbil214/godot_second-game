@@ -1,5 +1,13 @@
 # 3D Game using Godot Engine
 
+## To-Do List
+### Movement
+- Improve movement rotation
+- Add jump animation
+- ...
+### Combat
+- ...
+
 ##  Asset used
 - https://github.com/lukky-nl/third_person_controller_assets
 - https://www.kenney.nl/assets/prototype-textures

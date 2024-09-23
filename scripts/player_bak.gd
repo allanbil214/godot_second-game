@@ -4,16 +4,11 @@ var SPEED = 0.0
 var is_running = false
 var is_locked = false
 
-# Set the vertical rotation limits
-var min_camera_angle = -PI / 2  # -90 degrees
-var max_camera_angle = PI / 2   # 90 degrees
-
 @export var WalkingSpeed = 2.0
 @export var RunningSpeed = 5.0
 @export var JUMP_VELOCITY = 4.5	
-@export var sens_h = 0.4
-@export var sens_v = 0.4
-@export var SMOOTH_ROTATION_SPEED = 15.0  # Speed of smooth rotation
+@export var sens_h = 0.5
+@export var sens_v = 0.5
 
 @onready var camera_mount: Node3D = $camera_mount
 @onready var animation_player: AnimationPlayer = $visual/mixamo_base/AnimationPlayer
@@ -27,13 +22,6 @@ func _input(event: InputEvent) -> void:
 		rotate_y(deg_to_rad(-event.relative.x * sens_h))
 		visual.rotate_y(deg_to_rad(event.relative.x * sens_h))
 		camera_mount.rotate_x(deg_to_rad(-event.relative.y * sens_v))
-		
-		# Adjust camera mount rotation and clamp the vertical angle
-		camera_mount.rotate_x(deg_to_rad(-event.relative.y * sens_v))
-		camera_mount.rotation.x = clamp(camera_mount.rotation.x, min_camera_angle, max_camera_angle)
-
-		# Wrap the horizontal Y-axis rotation
-		camera_mount.rotation.y = wrapf(camera_mount.rotation.y, -PI, PI)
 
 func _physics_process(delta: float) -> void:
 	
@@ -74,10 +62,8 @@ func _physics_process(delta: float) -> void:
 				if animation_player.current_animation != "walking":
 					animation_player.play("walking")
 					
-		# Smoothly rotate the visual towards the direction
-		var target_rotation_y = atan2(-input_dir.x, -input_dir.y)  # Calculate target yaw based on direction
-		visual.rotation.y = lerp_angle(visual.rotation.y, target_rotation_y, SMOOTH_ROTATION_SPEED * delta)  # Smooth rotation
-
+			visual.look_at(position + direction)
+				
 		velocity.x = direction.x * SPEED
 		velocity.z = direction.z * SPEED
 			

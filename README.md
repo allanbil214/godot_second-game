@@ -2,7 +2,7 @@
 
 ## To-Do List
 ### Movement
-- Improve movement rotation
+- ~~Improve movement rotation (smoothing the movement)~~
 - Add jump animation
 - ...
 ### Combat

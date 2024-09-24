@@ -6,7 +6,7 @@ var is_locked = false
 
 # Set the vertical rotation limits
 var min_camera_angle = -PI / 2  # -90 degrees
-var max_camera_angle = PI / 2   # 90 degrees
+var max_camera_angle = PI / 2.2   # 90 degrees
 
 @export var WalkingSpeed = 2.0
 @export var RunningSpeed = 5.0

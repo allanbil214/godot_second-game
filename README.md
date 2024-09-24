@@ -3,6 +3,7 @@
 ## To-Do List
 ### Movement
 - ~~Improve movement rotation (smoothing the movement)~~
+- ~~Improve camera~~
 - Add jump animation
 - ...
 ### Combat

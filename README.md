@@ -4,7 +4,7 @@
 ### Movement
 - ~~Improve movement rotation (smoothing the movement)~~
 - ~~Improve camera~~
-- Add jump animation
+- Add jump animation (added the anim, not yet implemented)
 - ...
 ### Combat
 - ...
@@ -16,4 +16,5 @@
 
 ## Reference used
 - https://www.youtube.com/watch?v=EP5AYllgHy8
+- https://www.youtube.com/watch?v=Tbfc_5syCMk
 - ...

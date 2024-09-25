@@ -16,7 +16,7 @@ var max_camera_angle = PI / 2.2   # 90 degrees
 @export var SMOOTH_ROTATION_SPEED = 15.0  # Speed of smooth rotation
 
 @onready var camera_mount: Node3D = $camera_mount
-@onready var animation_player: AnimationPlayer = $visual/mixamo_base/AnimationPlayer
+@onready var animation_player: AnimationPlayer = $visual/aya/AnimationPlayer
 @onready var visual: Node3D = $visual
 
 func _ready():
@@ -68,11 +68,11 @@ func _physics_process(delta: float) -> void:
 	if direction:
 		if !is_locked:
 			if is_running:
-				if animation_player.current_animation != "running":
-					animation_player.play("running")
+				if animation_player.current_animation != "RunForward":
+					animation_player.play("RunForward")
 			else:
-				if animation_player.current_animation != "walking":
-					animation_player.play("walking")
+				if animation_player.current_animation != "Walking":
+					animation_player.play("Walking")
 					
 		# Smoothly rotate the visual towards the direction
 		var target_rotation_y = atan2(-input_dir.x, -input_dir.y)  # Calculate target yaw based on direction
@@ -83,8 +83,8 @@ func _physics_process(delta: float) -> void:
 			
 	else:
 		if !is_locked:
-			if animation_player.current_animation != "idle":
-				animation_player.play("idle")
+			if animation_player.current_animation != "Idle":
+				animation_player.play("Idle")
 			
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)

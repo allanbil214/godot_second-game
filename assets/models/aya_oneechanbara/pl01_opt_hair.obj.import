@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://de3hv08tc67xn"
+path="res://.godot/imported/pl01_opt_hair.obj-4cb788709fa9a02debcf12878ded7161.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pl01_opt_hair.obj-4cb788709fa9a02debcf12878ded7161.mesh"]
+
+source_file="res://assets/models/aya_oneechanbara/pl01_opt_hair.obj"
+dest_files=["res://.godot/imported/pl01_opt_hair.obj-4cb788709fa9a02debcf12878ded7161.mesh", "res://.godot/imported/pl01_opt_hair.obj-4cb788709fa9a02debcf12878ded7161.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

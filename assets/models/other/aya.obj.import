@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dftmdntpf0rr0"
+path="res://.godot/imported/aya.obj-b60590eea3369eaae815ad0c8027df87.mesh"
+
+[deps]
+
+files=["res://.godot/imported/aya.obj-b60590eea3369eaae815ad0c8027df87.mesh"]
+
+source_file="res://assets/models/other/aya.obj"
+dest_files=["res://.godot/imported/aya.obj-b60590eea3369eaae815ad0c8027df87.mesh", "res://.godot/imported/aya.obj-b60590eea3369eaae815ad0c8027df87.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

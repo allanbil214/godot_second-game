@@ -1,0 +1,307 @@
+# Blender MTL File: 'pl01_00_V2_textures.blend'
+# Material Count: 23
+
+newmtl mat_0-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\face00_nml.png
+map_Kd Textures\\face00.png
+map_Ks Textures\\face00_spc.png
+
+newmtl mat_1-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\eye_nml.png
+map_Kd Textures\\eye.png
+map_Ks Textures\\eye_spc.png
+
+newmtl mat_10-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\nail00_nml.png
+map_Kd Textures\\nail00.png
+map_Ks Textures\\nail00_spc.png
+
+newmtl mat_11-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\arm00a_nml.png
+map_Kd Textures\\arm00a.png
+map_Ks Textures\\arm00a_spc.png
+
+newmtl mat_12-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\underwear_nml.png
+map_Kd Textures\\underwear.png
+map_Ks Textures\\underwear_spc.png
+
+newmtl mat_13-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\hesopi_nml.png
+map_Kd Textures\\hesopi.png
+map_Ks Textures\\hesopi_spc.png
+
+newmtl mat_14-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\leg00_nml.png
+map_Kd Textures\\leg00.png
+map_Ks Textures\\leg00_spc.png
+
+newmtl mat_15-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\leg00_02_nml.png
+map_Kd Textures\\leg00_02.png
+map_Ks Textures\\leg00_02_spc.png
+
+newmtl mat_16-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\holder00_nml.png
+map_Kd Textures\\holder00.png
+map_Ks Textures\\holder00_spc.png
+
+newmtl mat_17-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\saya01_nml.png
+map_Kd Textures\\saya01.png
+map_Ks Textures\\saya01_spc.png
+
+newmtl mat_18-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\katana2_nml.png
+map_Kd Textures\\katana2.png
+map_Ks Textures\\katana2_spc.png
+
+newmtl mat_19-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\takana2_tuba_nml.png
+map_Kd Textures\\takana2_tuba.png
+map_Ks Textures\\takana2_tuba_spc.png
+
+newmtl mat_2-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\face03_nml.png
+map_Kd Textures\\face03.png
+map_Ks Textures\\face03_spc.png
+map_d Textures\\face03.png
+
+newmtl mat_20-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\takana_tuba_nml.png
+map_Kd Textures\\takana_tuba.png
+map_Ks Textures\\takana_tuba_spc.png
+
+newmtl mat_21-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\katana_nml.png
+map_Kd Textures\\katana.png
+map_Ks Textures\\katana_spc.png
+
+newmtl mat_22-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\saya02_nml.png
+map_Kd Textures\\saya02.png
+map_Ks Textures\\saya02_spc.png
+map_d Textures\\saya02.png
+
+newmtl mat_3-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\face03_nml.png
+map_Kd Textures\\face01.png
+map_Ks Textures\\face03_spc.png
+map_d Textures\\face01.png
+
+newmtl mat_4-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\face03_nml.png
+map_Kd Textures\\face02.png
+map_Ks Textures\\face03_spc.png
+map_d Textures\\face02.png
+
+newmtl mat_5-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\face03_nml.png
+map_Kd Textures\\matsuge01.png
+map_Ks Textures\\face03_spc.png
+map_d Textures\\matsuge01.png
+
+newmtl mat_6-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\face03_nml.png
+map_Kd Textures\\matsuge00.png
+map_Ks Textures\\face03_spc.png
+map_d Textures\\matsuge00.png
+
+newmtl mat_7-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\arm00_nml.png
+map_Kd Textures\\arm00.png
+map_Ks Textures\\arm00_spc.png
+
+newmtl mat_8-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\finger00_nml.png
+map_Kd Textures\\finger00.png
+map_Ks Textures\\finger00_spc.png
+
+newmtl mat_9-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\body00_nml.png
+map_Kd Textures\\body00.png
+map_Ks Textures\\body00_spc.png

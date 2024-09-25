@@ -1,0 +1,156 @@
+# Blender 4.2.1 LTS MTL File: 'None'
+# www.blender.org
+
+newmtl mat_0-material
+Ns 99.999977
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face00.png
+map_Ks C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face00_spc.png
+map_d C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face00.png
+map_Bump -bm 1.000000 C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face00_nml.png
+
+newmtl mat_1-material
+Ns 99.999977
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/eye.png
+map_Ks C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/eye_spc.png
+map_d C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/eye.png
+map_Bump -bm 1.000000 C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/eye_nml.png
+
+newmtl mat_10-material
+Ns 99.999977
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/nail00.png
+map_Ks C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/nail00_spc.png
+map_d C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/nail00.png
+map_Bump -bm 1.000000 C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/nail00_nml.png
+
+newmtl mat_11-material
+Ns 99.999977
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/arm00a.png
+map_Ks C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/arm00a_spc.png
+map_d C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/arm00a.png
+map_Bump -bm 1.000000 C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/arm00a_nml.png
+
+newmtl mat_12-material
+Ns 99.999977
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/underwear.png
+map_Ks C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/underwear_spc.png
+map_d C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/underwear.png
+map_Bump -bm 1.000000 C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/underwear_nml.png
+
+newmtl mat_14-material
+Ns 99.999977
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/leg00.png
+map_Ks C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/leg00_spc.png
+map_d C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/leg00.png
+map_Bump -bm 1.000000 C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/leg00_nml.png
+
+newmtl mat_2-material
+Ns 99.999977
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face03.png
+map_Ks C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face03_spc.png
+map_d C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face03.png
+map_Bump -bm 1.000000 C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face03_nml.png
+
+newmtl mat_3-material
+Ns 99.999977
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face01.png
+map_Ks C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face03_spc.png
+map_d C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face01.png
+map_Bump -bm 1.000000 C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face03_nml.png
+
+newmtl mat_4-material
+Ns 99.999977
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face02.png
+map_Ks C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face03_spc.png
+map_d C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face02.png
+map_Bump -bm 1.000000 C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face03_nml.png
+
+newmtl mat_5-material
+Ns 99.999977
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/matsuge01.png
+map_Ks C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face03_spc.png
+map_d C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/matsuge01.png
+map_Bump -bm 1.000000 C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face03_nml.png
+
+newmtl mat_6-material
+Ns 99.999977
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/matsuge00.png
+map_Ks C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face03_spc.png
+map_d C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/matsuge00.png
+map_Bump -bm 1.000000 C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/face03_nml.png
+
+newmtl mat_7-material
+Ns 99.999977
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/arm00.png
+map_Ks C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/arm00_spc.png
+map_d C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/arm00.png
+map_Bump -bm 1.000000 C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/arm00_nml.png
+
+newmtl mat_8-material
+Ns 99.999977
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/finger00.png
+map_Ks C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/finger00_spc.png
+map_d C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/finger00.png
+map_Bump -bm 1.000000 C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/finger00_nml.png
+
+newmtl mat_9-material
+Ns 99.999977
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/body00.png
+map_Ks C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/body00_spc.png
+map_d C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/body00.png
+map_Bump -bm 1.000000 C:/Godot Engine/Projects/second-game/assets/aya_oneechanbara/Textures/body00_nml.png

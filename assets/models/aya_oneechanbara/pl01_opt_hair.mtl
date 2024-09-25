@@ -1,0 +1,30 @@
+# Blender MTL File: 'pl01_opt_hair_V3_redo_flip custom normals.blend'
+# Material Count: 2
+
+newmtl mat_0-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\hair00_nml.png
+map_Kd Textures\\hair00.png
+map_Ks Textures\\hair00_spc.png
+map_d Textures\\hair00.png
+
+newmtl mat_1-material
+Ns 89.999982
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Textures\\hair01_nml.png
+map_Kd Textures\\hair01.png
+map_Ks Textures\\hair01_spc.png
+map_d Textures\\hair01.png

@@ -36,22 +36,26 @@ func _input(event: InputEvent) -> void:
 		camera_mount.rotation.y = wrapf(camera_mount.rotation.y, -PI, PI)
 
 func _physics_process(delta: float) -> void:
-	
 	if !animation_player.is_playing():
 		is_locked = false
-	
+
+	handle_kick()
+	handle_movement(delta)
+
+func handle_kick() -> void:
 	if Input.is_action_just_pressed("kick"):
 		if animation_player.current_animation != "kick":
 			animation_player.play("kick")
 			is_locked = true
-	
+
+func handle_movement(delta: float) -> void:
 	if Input.is_action_pressed("run"):
 		SPEED = RunningSpeed
 		is_running = true
 	else:
-		SPEED = WalkingSpeed	
+		SPEED = WalkingSpeed
 		is_running = false
-	
+
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
@@ -61,7 +65,6 @@ func _physics_process(delta: float) -> void:
 		velocity.y = JUMP_VELOCITY
 
 	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
 	var input_dir := Input.get_vector("left", "right", "forward", "backward")
 	var direction := (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 
@@ -75,19 +78,21 @@ func _physics_process(delta: float) -> void:
 					animation_player.play("Walking")
 					
 		# Smoothly rotate the visual towards the direction
-		var target_rotation_y = atan2(-input_dir.x, -input_dir.y)  # Calculate target yaw based on direction
-		visual.rotation.y = lerp_angle(visual.rotation.y, target_rotation_y, SMOOTH_ROTATION_SPEED * delta)  # Smooth rotation
+		var target_rotation_y = atan2(-input_dir.x, -input_dir.y)
+		visual.rotation.y = lerp_angle(visual.rotation.y, target_rotation_y, SMOOTH_ROTATION_SPEED * delta)
 
 		velocity.x = direction.x * SPEED
 		velocity.z = direction.z * SPEED
-			
+
 	else:
 		if !is_locked:
 			if animation_player.current_animation != "Idle":
 				animation_player.play("Idle")
-			
+
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)
-		
+
 	if !is_locked:
 		move_and_slide()
+
+	

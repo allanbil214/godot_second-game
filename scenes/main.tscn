@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://bgpghlxv02aje"]
+[gd_scene load_steps=16 format=3 uid="uid://bgpghlxv02aje"]
 
 [ext_resource type="Texture2D" uid="uid://c8arnlq67qi7" path="res://assets/textures/grids/Dark/texture_05.png" id="1_41pxh"]
 [ext_resource type="Texture2D" uid="uid://b58xv1joypxo5" path="res://assets/textures/grids/Orange/texture_09.png" id="2_uv6pc"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://djg8y25y06h5n" path="res://assets/textures/grids/Green/texture_09.png" id="4_i7ndb"]
 [ext_resource type="Texture2D" uid="uid://c13wvaoi1137m" path="res://assets/textures/PNG/Light/texture_08.png" id="5_nw2ni"]
 [ext_resource type="PackedScene" uid="uid://bf7t7yyn1vrxa" path="res://scenes/player.tscn" id="5_xrua8"]
+[ext_resource type="PackedScene" uid="uid://qw7qvokg6trr" path="res://scenes/enemy.tscn" id="7_iua43"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_uytnp"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -82,3 +83,8 @@ size = Vector3(0.0654297, 5.98547, 12.7574)
 
 [node name="player" parent="." instance=ExtResource("5_xrua8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.4667, 0)
+collision_mask = 3
+
+[node name="enemy" parent="." instance=ExtResource("7_iua43")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.48871, 1.79598, -7.88006)
+collision_mask = 3

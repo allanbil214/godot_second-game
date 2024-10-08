@@ -3,7 +3,9 @@
 ## To-Do List
 ### Movement
 - ~~Improve movement rotation (smoothing the movement)~~
+- ~~Improve movement rotation smoothing~~
 - ~~Improve camera~~
+- Add Enemy (Just Placeholder)
 - Add jump animation (added the anim, not yet implemented)
 - ...
 ### Combat
